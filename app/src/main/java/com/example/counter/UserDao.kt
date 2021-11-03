@@ -1,3 +1,11 @@
+package com.example.counter
+
+import User
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.Query
+
 @Dao
 interface UserDao {
     @Query("SELECT * FROM user")
